@@ -20,8 +20,6 @@ firebase.initializeApp({
 const auth = firebase.auth();
 const firestore = firebase.firestore();
 
-
-
 function SignIn(){
   const signInwithGoogle = () => {
     const provider = new firebase.auth.GoogleAuthProvider();
